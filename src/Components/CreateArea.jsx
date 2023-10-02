@@ -24,7 +24,7 @@ function CreateArea(props) {
       },
       body: JSON.stringify({note})
   }; 
-  fetch('http://localhost:4000', requestOptions).then(res=>{
+  fetch('https://keeper-api-3hra.onrender.com', requestOptions).then(res=>{
     if(res.status === 200)
     {
     setNotes({

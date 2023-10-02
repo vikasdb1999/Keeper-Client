@@ -5,7 +5,7 @@ import svg from './google.svg'
 
 function Login() {
   const google = () => {
-    window.open("http://localhost:4000/auth/google", "_self");
+    window.open("https://keeper-api-3hra.onrender.com/auth/google", "_self");
   };
   return (
     <div>

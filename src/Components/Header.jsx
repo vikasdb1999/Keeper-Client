@@ -26,7 +26,7 @@ function Header() {
   }
   async function getImage()
   {
-    const response = await fetch("http://localhost:4000/userImage",{
+    const response = await fetch("https://keeper-api-3hra.onrender.com/userImage",{
       credentials: "include",
       headers: {
         Accept: "application/json",

@@ -76,7 +76,7 @@ function GetNotes() {
     note._id === noteId ? editedNote : note
   );
     setNote(updatedNotes);
-    fetch(`http://localhost:4000/edit`,{
+    fetch(`https://keeper-api-3hra.onrender.com/edit`,{
         method: "PUT",
         credentials: "include",
         body: JSON.stringify(editedNote),

@@ -1,0 +1,28 @@
+.signup{
+    position: absolute;
+    display: flex;    
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -20px;
+    
+}
+
+.login{
+    background-color:  #f5ba13;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.googlesvg{
+    height: 20px;
+    color: #fff;
+}
